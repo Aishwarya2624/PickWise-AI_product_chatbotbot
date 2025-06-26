@@ -27,19 +27,19 @@ This project is an **offline smart chatbot** that answers user questions about m
 
 ## 📦 How to Run
 
-1.clone this repo
+1.clone this repo:
 git clone https://github.com/YOUR_USERNAME/ai-product-chatbot-offline.git
 cd ai-product-chatbot-offline
 
 
-2.Install dependencies
+2.Install dependencies:
 pip install -r requirements.txt
 
-3. Download the FLAN-T5 model
+3. Download the FLAN-T5 model:
    from transformers import pipeline
 pipeline("text2text-generation", model="google/flan-t5-base")
 
-4.Run the App
+4.Run the App:
 streamlit run app.py
 
 📌 Why I Built This
